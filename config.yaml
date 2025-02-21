@@ -1,0 +1,28 @@
+# Paths
+dataset_csv: "C:/Users/fobo1276/Desktop/PIUS v1 data analysis/Slidding_window_segments_2sec/segments_labels.csv"
+audio_dir: "C:/Users/fobo1276/Desktop/PIUS v1 data analysis/Slidding_window_2sec_overlap"
+
+# Data split ratios
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
+
+# Model type
+model_type: "vgg"  # Choose from ['vgg', 'resnet', 'alexnet', 'cnn-lstm', 'svm', 'xgboost', 'knn', 'dtc', 'catboost']
+
+# Feature extraction type
+feature_type: "mfcc"  # Choose from ['log-mel', 'spectrogram', 'mfcc', 'original']
+
+# Training parameters
+learning_rate: 0.0001
+batch_size: 16
+num_epochs: 100
+
+# Machine learning model settings
+ml_feature_name: "compare"  # Choose between 'gemaps' or 'compare'
+ml_epochs: 5
+
+# Output paths
+output_dir: "./results"
+model_save_dir: "./saved_model"
+
