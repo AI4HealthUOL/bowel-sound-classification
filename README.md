@@ -3,8 +3,9 @@
 This is the official code repository associated with the paper:
 
 📄 **Benchmarking machine learning for bowel sound pattern classification – from tabular features to pretrained models**
+
 ✍️ *Zahra Mansour, Verena Uslar, Dirk Weyhe, Danilo Hollosi and Nils Strodthoff.*
-📅 **Currently under review**
+ArXiv. [https://arxiv.org/abs/2502.15607](https://arxiv.org/abs/2502.15607)
 
 This repository contains a **Bowel sounds classification pipeline** that supports both **Deep Learning** and **Machine Learning** models for audio classification. The pipeline is built using **PyTorch, Hugging Face Transformers, and Scikit-Learn**.
 
