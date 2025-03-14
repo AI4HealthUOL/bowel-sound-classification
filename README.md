@@ -7,6 +7,7 @@ This is the official code repository associated with the paper:
 ✍️ *Zahra Mansour, Verena Uslar, Dirk Weyhe, Danilo Hollosi and Nils Strodthoff.*
 ArXiv. [https://arxiv.org/abs/2502.15607](https://arxiv.org/abs/2502.15607)
 
+
 This repository contains a **Bowel sounds classification pipeline** that supports both **Deep Learning** and **Machine Learning** models for audio classification. The pipeline is built using **PyTorch, Hugging Face Transformers, and Scikit-Learn**.
 
 
@@ -63,6 +64,11 @@ Your dataset should be in **CSV format** with the following columns:
 | `label`     | Class label for the audio sample (for bowel sound patterns: SB, MB, CRS, HS, and Silence period labelled NONE) |
 | `patent_id` | Identifier for subject grouping  |
 
+## Data Availability
+
+The dataset used in this study, consisting of recordings from **four subjects**, is publicly available at the following link:
+
+[Dataset on Figshare](https://doi.org/10.6084/m9.figshare.28595741.v1)
 ### **Example CSV File**
 Below is an example of how your dataset should look:
 
